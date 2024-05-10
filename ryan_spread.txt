@@ -559,7 +559,7 @@ misc.strafe.wasd "On"
 radar 16 16 256 284
 rbot.accuracy.attack.indicator "On"
 rbot.accuracy.attack.rapidfire "Off"
-rbot.accuracy.auto "Scout"
+rbot.accuracy.auto "Sniper"
 rbot.accuracy.auto.asniper.scopeopts.scope "On"
 rbot.accuracy.auto.asniper.scopeopts.unscope "Off"
 rbot.accuracy.auto.asniper.stopopts.betweenshots "Off"
@@ -675,7 +675,7 @@ rbot.antiaim.advanced.pitch "89°"
 rbot.antiaim.base "180 Backward"
 rbot.antiaim.base.rotation -58
 rbot.antiaim.base.spinspeed 60
-rbot.antiaim.condition.autodir.edges "Off"
+rbot.antiaim.condition.autodir.edges "On"
 rbot.antiaim.condition.autodir.targets "On"
 rbot.antiaim.condition.freezetime "On"
 rbot.antiaim.condition.grenade "On"
@@ -687,7 +687,7 @@ rbot.antiaim.left.spinspeed 60
 rbot.antiaim.right "-140 Backward"
 rbot.antiaim.right.rotation 58
 rbot.antiaim.right.spinspeed 60
-rbot.hitscan.accuracy "Scout"
+rbot.hitscan.accuracy "Sniper"
 rbot.hitscan.accuracy.asniper.adaptivedamage "On"
 rbot.hitscan.accuracy.asniper.autowall "On"
 rbot.hitscan.accuracy.asniper.enhitchance "On"
@@ -754,7 +754,7 @@ rbot.hitscan.accuracy.zeus.enhitchance "On"
 rbot.hitscan.accuracy.zeus.hitchance 65
 rbot.hitscan.accuracy.zeus.hitchanceburst 45
 rbot.hitscan.accuracy.zeus.mindamage 84
-rbot.hitscan.hitbox "Scout"
+rbot.hitscan.hitbox "Sniper"
 rbot.hitscan.hitbox.asniper.body.center "On"
 rbot.hitscan.hitbox.asniper.body.exposed "On"
 rbot.hitscan.hitbox.asniper.body.lethal "On"
