@@ -653,8 +653,8 @@ rbot.accuracy.auto.zeus.stopopts.inmolotov "Off"
 rbot.accuracy.auto.zeus.stopopts.slowwalk "On"
 rbot.accuracy.auto.zeus.stopopts.stop "On"
 rbot.accuracy.movement.quickstop "On"
-rbot.accuracy.movement.slowkey 0
-rbot.accuracy.movement.slowspeed 30
+rbot.accuracy.movement.slowkey 16
+rbot.accuracy.movement.slowspeed 40
 rbot.accuracy.walkbot.peek "On"
 rbot.accuracy.walkbot.peekind "On"
 rbot.accuracy.walkbot.peekind.clr1 0 255 0 255
@@ -670,7 +670,7 @@ rbot.aim.knife "Quick Stab"
 rbot.aim.posadj.backtrack "On"
 rbot.aim.target.fov 180
 rbot.aim.target.lock "On"
-rbot.aim.target.selection "Lowest Health"
+rbot.aim.target.selection "Closest To Crosshair"
 rbot.antiaim.advanced.pitch "89°"
 rbot.antiaim.base "180 Backward"
 rbot.antiaim.base.rotation -58
@@ -699,7 +699,7 @@ rbot.hitscan.accuracy.hpistol.autowall "On"
 rbot.hitscan.accuracy.hpistol.enhitchance "On"
 rbot.hitscan.accuracy.hpistol.hitchance 55
 rbot.hitscan.accuracy.hpistol.hitchanceburst 45
-rbot.hitscan.accuracy.hpistol.mindamage 39
+rbot.hitscan.accuracy.hpistol.mindamage 50
 rbot.hitscan.accuracy.lmg.adaptivedamage "On"
 rbot.hitscan.accuracy.lmg.autowall "On"
 rbot.hitscan.accuracy.lmg.enhitchance "On"
@@ -721,9 +721,9 @@ rbot.hitscan.accuracy.rifle.mindamage 26
 rbot.hitscan.accuracy.scout.adaptivedamage "On"
 rbot.hitscan.accuracy.scout.autowall "On"
 rbot.hitscan.accuracy.scout.enhitchance "On"
-rbot.hitscan.accuracy.scout.hitchance 65
-rbot.hitscan.accuracy.scout.hitchanceburst 75
-rbot.hitscan.accuracy.scout.mindamage 50
+rbot.hitscan.accuracy.scout.hitchance 40
+rbot.hitscan.accuracy.scout.hitchanceburst 35
+rbot.hitscan.accuracy.scout.mindamage 101
 rbot.hitscan.accuracy.shared.adaptivedamage "On"
 rbot.hitscan.accuracy.shared.autowall "On"
 rbot.hitscan.accuracy.shared.enhitchance "On"
@@ -747,7 +747,7 @@ rbot.hitscan.accuracy.sniper.autowall "On"
 rbot.hitscan.accuracy.sniper.enhitchance "On"
 rbot.hitscan.accuracy.sniper.hitchance 65
 rbot.hitscan.accuracy.sniper.hitchanceburst 75
-rbot.hitscan.accuracy.sniper.mindamage 65
+rbot.hitscan.accuracy.sniper.mindamage 110
 rbot.hitscan.accuracy.zeus.adaptivedamage "On"
 rbot.hitscan.accuracy.zeus.autowall "On"
 rbot.hitscan.accuracy.zeus.enhitchance "On"
@@ -767,7 +767,7 @@ rbot.hitscan.hitbox.asniper.limbs.exposed "On"
 rbot.hitscan.hitbox.hpistol.body.center "On"
 rbot.hitscan.hitbox.hpistol.body.exposed "On"
 rbot.hitscan.hitbox.hpistol.body.lethal "On"
-rbot.hitscan.hitbox.hpistol.body.priority "Off"
+rbot.hitscan.hitbox.hpistol.body.priority "On"
 rbot.hitscan.hitbox.hpistol.head.center "On"
 rbot.hitscan.hitbox.hpistol.head.exposed "Off"
 rbot.hitscan.hitbox.hpistol.head.priority "On"
@@ -803,7 +803,7 @@ rbot.hitscan.hitbox.rifle.limbs.exposed "Off"
 rbot.hitscan.hitbox.scout.body.center "On"
 rbot.hitscan.hitbox.scout.body.exposed "On"
 rbot.hitscan.hitbox.scout.body.lethal "On"
-rbot.hitscan.hitbox.scout.body.priority "On"
+rbot.hitscan.hitbox.scout.body.priority "Off"
 rbot.hitscan.hitbox.scout.head.center "On"
 rbot.hitscan.hitbox.scout.head.exposed "Off"
 rbot.hitscan.hitbox.scout.head.priority "On"
@@ -876,10 +876,10 @@ theme.ui2.lowpoly2 18 18 18 0
 unbindall
 bindtoggle "Mouse3" esp.world.thirdperson "Off" "On" 0
 bindtoggle "Capslock" rbot.hitscan.accuracy.asniper.mindamage "4" "40" 0
-bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.mindamage "65" "39" 1
-bindtoggle "Capslock" rbot.hitscan.accuracy.pistol.mindamage "8" "30" 2
-bindtoggle "Capslock" rbot.hitscan.accuracy.sniper.mindamage "8" "65" 3
-bindtoggle "Capslock" rbot.hitscan.accuracy.scout.mindamage "10" "50" 4
+bindtoggle "Capslock" rbot.hitscan.accuracy.pistol.mindamage "8" "30" 1
+bindtoggle "Capslock" rbot.hitscan.accuracy.scout.mindamage "10" "101" 2
+bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.mindamage "20" "50" 3
+bindtoggle "Capslock" rbot.hitscan.accuracy.sniper.mindamage "15" "110" 4
 unalias
 alias invertrot "rbot.antiaim.rotation"
 alias autodir1 "rbot.antiaim.left -157.0 Desync; rbot.antiaim.left.lby 100.0; rbot.antiaim.left.rotation -58.0; rbot.antiaim.right -175.0 Desync; rbot.antiaim.right.lby -100.0; rbot.antiaim.right.rotation 58.0; bind Mouse5 autodir2"
