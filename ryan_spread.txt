@@ -1,4 +1,3 @@
-lua.unloadall
 adv.binds "Short Names"
 adv.confirm "On"
 adv.conkey 0
@@ -54,8 +53,8 @@ esp.chams.local.overlay.glowhealth.healthclr1 255 0 0 255
 esp.chams.local.overlay.glowhealth.healthclr2 0 255 0 255
 esp.chams.local.overlay.wireframe "Off"
 esp.chams.local.overlay.wireframe.clr 15 153 255 150
-esp.chams.local.visible "Flat"
-esp.chams.local.visible.clr 249 84 210 137
+esp.chams.local.visible "Off"
+esp.chams.local.visible.clr 15 196 255 255
 esp.chams.localarms.occluded "Off"
 esp.chams.localarms.occluded.clr 255 255 255 255
 esp.chams.localarms.overlay.glow "Off"
@@ -94,13 +93,13 @@ esp.other.crosshair "Off"
 esp.other.crosshair.clr 255 0 0 255
 esp.other.killfeed "Off"
 esp.other.nightmode "On"
-esp.other.nightmodeint 0.099999994
-esp.other.noflash "On"
-esp.other.norecoil "On"
+esp.other.nightmodeint 0.5
+esp.other.noflash "Off"
+esp.other.norecoil "Off"
 esp.other.noscope "On"
 esp.other.noscopeoverlay "On"
-esp.other.nosky "On"
-esp.other.nosmoke "On"
+esp.other.nosky "Off"
+esp.other.nosmoke "Off"
 esp.other.radar "Off"
 esp.other.radaralpha 150
 esp.other.radardist 1000
@@ -226,7 +225,7 @@ esp.overlay.weapon.nades.timer "Off"
 esp.overlay.weapon.name "Off"
 esp.overlay.weapon.name.anchor 0
 esp.overlay.weapon.name.clr1 255 255 255 255
-esp.skins.enabled "On"
+esp.skins.enabled "Off"
 esp.world.bullettracer "All"
 esp.world.bullettracerfilter.enemy "On"
 esp.world.bullettracerfilter.enemy.clr 250 17 11 255
@@ -235,7 +234,7 @@ esp.world.bullettracerfilter.friendly.clr 30 154 247 255
 esp.world.bullettracerfilter.local "On"
 esp.world.bullettracerfilter.local.clr 239 53 190 255
 esp.world.dmgindicator "Off"
-esp.world.fov 120
+esp.world.fov 90
 esp.world.hiteffects.marker "On"
 esp.world.hiteffects.sound "On"
 esp.world.inferno.enemy "On"
@@ -256,9 +255,9 @@ esp.world.nadewarning.friendly "On"
 esp.world.nadewarning.local "On"
 esp.world.outofview "Arrow"
 esp.world.outofviewscale 20
-esp.world.thirdperson "On"
-esp.world.thirdpersondist 80
-esp.world.viewmodelfov 60
+esp.world.thirdperson "Off"
+esp.world.thirdpersondist 150
+esp.world.viewmodelfov 54
 esp.world.wallbanginfo.circle "Off"
 esp.world.wallbanginfo.crosshair "On"
 esp.world.wallbanginfo.dmg "On"
@@ -539,28 +538,28 @@ lbot.weapon.vis.sniper.autowall "Off"
 lbot.weapon.vis.sniper.smoke "Off"
 lbot.weapon.vis.zeus.autowall "Off"
 lbot.weapon.vis.zeus.smoke "Off"
-lua.savecfg "On"
+lua.savecfg "Off"
 menu 179 137
-misc.antiuntrusted "Off"
+misc.antiuntrusted "On"
 misc.autoaccept "On"
-misc.autojump "Perfect"
+misc.autojump "Legit"
 misc.chatspam "Off"
 misc.duckjump "Off"
 misc.edgejump 0
 misc.master "On"
 misc.showspec "On"
-misc.strafe.air "On"
+misc.strafe.air "Off"
 misc.strafe.circle 0
 misc.strafe.disablenade "On"
-misc.strafe.enable "On"
+misc.strafe.enable "Off"
 misc.strafe.limit 1
-misc.strafe.mode "Silent"
+misc.strafe.mode "Normal"
 misc.strafe.snake 0
 misc.strafe.wasd "On"
 radar 16 16 256 284
 rbot.accuracy.attack.indicator "On"
 rbot.accuracy.attack.rapidfire "Off"
-rbot.accuracy.auto "Scout"
+rbot.accuracy.auto "Pistol"
 rbot.accuracy.auto.asniper.scopeopts.scope "On"
 rbot.accuracy.auto.asniper.scopeopts.unscope "Off"
 rbot.accuracy.auto.asniper.stopopts.betweenshots "Off"
@@ -581,11 +580,11 @@ rbot.accuracy.auto.hpistol.stopopts.slowwalk "Off"
 rbot.accuracy.auto.hpistol.stopopts.stop "On"
 rbot.accuracy.auto.lmg.stopopts.betweenshots "Off"
 rbot.accuracy.auto.lmg.stopopts.duck "Off"
-rbot.accuracy.auto.lmg.stopopts.early "Off"
+rbot.accuracy.auto.lmg.stopopts.early "On"
 rbot.accuracy.auto.lmg.stopopts.inair "Off"
-rbot.accuracy.auto.lmg.stopopts.inmolotov "Off"
+rbot.accuracy.auto.lmg.stopopts.inmolotov "On"
 rbot.accuracy.auto.lmg.stopopts.slowwalk "Off"
-rbot.accuracy.auto.lmg.stopopts.stop "Off"
+rbot.accuracy.auto.lmg.stopopts.stop "On"
 rbot.accuracy.auto.pistol.fire.pistol "On"
 rbot.accuracy.auto.pistol.stopopts.betweenshots "Off"
 rbot.accuracy.auto.pistol.stopopts.duck "Off"
@@ -654,7 +653,7 @@ rbot.accuracy.auto.zeus.stopopts.inmolotov "Off"
 rbot.accuracy.auto.zeus.stopopts.slowwalk "On"
 rbot.accuracy.auto.zeus.stopopts.stop "On"
 rbot.accuracy.movement.quickstop "On"
-rbot.accuracy.movement.slowkey 16
+rbot.accuracy.movement.slowkey 0
 rbot.accuracy.movement.slowspeed 40
 rbot.accuracy.walkbot.peek "On"
 rbot.accuracy.walkbot.peekind "On"
@@ -669,58 +668,58 @@ rbot.aim.aimadj.silentaim "On"
 rbot.aim.enable "Automatic"
 rbot.aim.knife "Default"
 rbot.aim.posadj.backtrack "On"
-rbot.aim.target.fov 180
+rbot.aim.target.fov 4
 rbot.aim.target.lock "On"
-rbot.aim.target.selection "Lowest Health"
-rbot.antiaim.advanced.pitch "89°"
-rbot.antiaim.base "-180 Backward"
+rbot.aim.target.selection "Closest To Crosshair"
+rbot.antiaim.advanced.pitch "Off"
+rbot.antiaim.base "180 Off"
 rbot.antiaim.base.rotation -58
 rbot.antiaim.base.spinspeed 60
-rbot.antiaim.condition.autodir.edges "On"
-rbot.antiaim.condition.autodir.targets "On"
-rbot.antiaim.condition.freezetime "On"
-rbot.antiaim.condition.grenade "On"
-rbot.antiaim.condition.knife "On"
-rbot.antiaim.condition.use "On"
-rbot.antiaim.left "140 Backward"
+rbot.antiaim.condition.autodir.edges "Off"
+rbot.antiaim.condition.autodir.targets "Off"
+rbot.antiaim.condition.freezetime "Off"
+rbot.antiaim.condition.grenade "Off"
+rbot.antiaim.condition.knife "Off"
+rbot.antiaim.condition.use "Off"
+rbot.antiaim.left "145 Off"
 rbot.antiaim.left.rotation -58
 rbot.antiaim.left.spinspeed 60
-rbot.antiaim.right "-140 Backward"
+rbot.antiaim.right "-145 Off"
 rbot.antiaim.right.rotation 58
 rbot.antiaim.right.spinspeed 60
-rbot.hitscan.accuracy "Heavy Pistol"
-rbot.hitscan.accuracy.asniper.adaptivedamage "On"
-rbot.hitscan.accuracy.asniper.autowall "On"
+rbot.hitscan.accuracy "Pistol"
+rbot.hitscan.accuracy.asniper.adaptivedamage "Off"
+rbot.hitscan.accuracy.asniper.autowall "Off"
 rbot.hitscan.accuracy.asniper.enhitchance "On"
 rbot.hitscan.accuracy.asniper.hitchance 40
 rbot.hitscan.accuracy.asniper.hitchanceburst 55
 rbot.hitscan.accuracy.asniper.mindamage 40
-rbot.hitscan.accuracy.hpistol.adaptivedamage "On"
-rbot.hitscan.accuracy.hpistol.autowall "On"
+rbot.hitscan.accuracy.hpistol.adaptivedamage "Off"
+rbot.hitscan.accuracy.hpistol.autowall "Off"
 rbot.hitscan.accuracy.hpistol.enhitchance "On"
 rbot.hitscan.accuracy.hpistol.hitchance 55
 rbot.hitscan.accuracy.hpistol.hitchanceburst 45
 rbot.hitscan.accuracy.hpistol.mindamage 100
-rbot.hitscan.accuracy.lmg.adaptivedamage "On"
-rbot.hitscan.accuracy.lmg.autowall "On"
+rbot.hitscan.accuracy.lmg.adaptivedamage "Off"
+rbot.hitscan.accuracy.lmg.autowall "Off"
 rbot.hitscan.accuracy.lmg.enhitchance "On"
 rbot.hitscan.accuracy.lmg.hitchance 35
 rbot.hitscan.accuracy.lmg.hitchanceburst 35
 rbot.hitscan.accuracy.lmg.mindamage 24
-rbot.hitscan.accuracy.pistol.adaptivedamage "On"
-rbot.hitscan.accuracy.pistol.autowall "On"
+rbot.hitscan.accuracy.pistol.adaptivedamage "Off"
+rbot.hitscan.accuracy.pistol.autowall "Off"
 rbot.hitscan.accuracy.pistol.enhitchance "On"
 rbot.hitscan.accuracy.pistol.hitchance 35
 rbot.hitscan.accuracy.pistol.hitchanceburst 35
-rbot.hitscan.accuracy.pistol.mindamage 40
-rbot.hitscan.accuracy.rifle.adaptivedamage "On"
-rbot.hitscan.accuracy.rifle.autowall "On"
+rbot.hitscan.accuracy.pistol.mindamage 24
+rbot.hitscan.accuracy.rifle.adaptivedamage "Off"
+rbot.hitscan.accuracy.rifle.autowall "Off"
 rbot.hitscan.accuracy.rifle.enhitchance "On"
 rbot.hitscan.accuracy.rifle.hitchance 55
 rbot.hitscan.accuracy.rifle.hitchanceburst 45
 rbot.hitscan.accuracy.rifle.mindamage 26
-rbot.hitscan.accuracy.scout.adaptivedamage "On"
-rbot.hitscan.accuracy.scout.autowall "On"
+rbot.hitscan.accuracy.scout.adaptivedamage "Off"
+rbot.hitscan.accuracy.scout.autowall "Off"
 rbot.hitscan.accuracy.scout.enhitchance "On"
 rbot.hitscan.accuracy.scout.hitchance 75
 rbot.hitscan.accuracy.scout.hitchanceburst 80
@@ -732,30 +731,30 @@ rbot.hitscan.accuracy.shared.hitchance 50
 rbot.hitscan.accuracy.shared.hitchanceburst 25
 rbot.hitscan.accuracy.shared.mindamage 1
 rbot.hitscan.accuracy.shotgun.adaptivedamage "On"
-rbot.hitscan.accuracy.shotgun.autowall "On"
+rbot.hitscan.accuracy.shotgun.autowall "Off"
 rbot.hitscan.accuracy.shotgun.enhitchance "On"
 rbot.hitscan.accuracy.shotgun.hitchance 35
 rbot.hitscan.accuracy.shotgun.hitchanceburst 35
 rbot.hitscan.accuracy.shotgun.mindamage 38
-rbot.hitscan.accuracy.smg.adaptivedamage "On"
-rbot.hitscan.accuracy.smg.autowall "On"
+rbot.hitscan.accuracy.smg.adaptivedamage "Off"
+rbot.hitscan.accuracy.smg.autowall "Off"
 rbot.hitscan.accuracy.smg.enhitchance "On"
 rbot.hitscan.accuracy.smg.hitchance 45
 rbot.hitscan.accuracy.smg.hitchanceburst 55
 rbot.hitscan.accuracy.smg.mindamage 34
-rbot.hitscan.accuracy.sniper.adaptivedamage "On"
-rbot.hitscan.accuracy.sniper.autowall "On"
+rbot.hitscan.accuracy.sniper.adaptivedamage "Off"
+rbot.hitscan.accuracy.sniper.autowall "Off"
 rbot.hitscan.accuracy.sniper.enhitchance "On"
 rbot.hitscan.accuracy.sniper.hitchance 75
 rbot.hitscan.accuracy.sniper.hitchanceburst 80
 rbot.hitscan.accuracy.sniper.mindamage 104
-rbot.hitscan.accuracy.zeus.adaptivedamage "On"
-rbot.hitscan.accuracy.zeus.autowall "On"
+rbot.hitscan.accuracy.zeus.adaptivedamage "Off"
+rbot.hitscan.accuracy.zeus.autowall "Off"
 rbot.hitscan.accuracy.zeus.enhitchance "On"
 rbot.hitscan.accuracy.zeus.hitchance 65
 rbot.hitscan.accuracy.zeus.hitchanceburst 45
 rbot.hitscan.accuracy.zeus.mindamage 84
-rbot.hitscan.hitbox "Scout"
+rbot.hitscan.hitbox "Sniper"
 rbot.hitscan.hitbox.asniper.body.center "On"
 rbot.hitscan.hitbox.asniper.body.exposed "On"
 rbot.hitscan.hitbox.asniper.body.lethal "On"
@@ -766,34 +765,34 @@ rbot.hitscan.hitbox.asniper.head.priority "On"
 rbot.hitscan.hitbox.asniper.limbs.center "On"
 rbot.hitscan.hitbox.asniper.limbs.exposed "On"
 rbot.hitscan.hitbox.hpistol.body.center "On"
-rbot.hitscan.hitbox.hpistol.body.exposed "On"
+rbot.hitscan.hitbox.hpistol.body.exposed "Off"
 rbot.hitscan.hitbox.hpistol.body.lethal "On"
 rbot.hitscan.hitbox.hpistol.body.priority "Off"
 rbot.hitscan.hitbox.hpistol.head.center "On"
 rbot.hitscan.hitbox.hpistol.head.exposed "Off"
 rbot.hitscan.hitbox.hpistol.head.priority "On"
-rbot.hitscan.hitbox.hpistol.limbs.center "On"
-rbot.hitscan.hitbox.hpistol.limbs.exposed "On"
+rbot.hitscan.hitbox.hpistol.limbs.center "Off"
+rbot.hitscan.hitbox.hpistol.limbs.exposed "Off"
 rbot.hitscan.hitbox.lmg.body.center "On"
-rbot.hitscan.hitbox.lmg.body.exposed "On"
+rbot.hitscan.hitbox.lmg.body.exposed "Off"
 rbot.hitscan.hitbox.lmg.body.lethal "On"
 rbot.hitscan.hitbox.lmg.body.priority "Off"
 rbot.hitscan.hitbox.lmg.head.center "On"
 rbot.hitscan.hitbox.lmg.head.exposed "Off"
 rbot.hitscan.hitbox.lmg.head.priority "On"
-rbot.hitscan.hitbox.lmg.limbs.center "On"
-rbot.hitscan.hitbox.lmg.limbs.exposed "On"
+rbot.hitscan.hitbox.lmg.limbs.center "Off"
+rbot.hitscan.hitbox.lmg.limbs.exposed "Off"
 rbot.hitscan.hitbox.pistol.body.center "On"
-rbot.hitscan.hitbox.pistol.body.exposed "On"
+rbot.hitscan.hitbox.pistol.body.exposed "Off"
 rbot.hitscan.hitbox.pistol.body.lethal "On"
 rbot.hitscan.hitbox.pistol.body.priority "Off"
 rbot.hitscan.hitbox.pistol.head.center "On"
 rbot.hitscan.hitbox.pistol.head.exposed "Off"
 rbot.hitscan.hitbox.pistol.head.priority "On"
-rbot.hitscan.hitbox.pistol.limbs.center "On"
-rbot.hitscan.hitbox.pistol.limbs.exposed "On"
+rbot.hitscan.hitbox.pistol.limbs.center "Off"
+rbot.hitscan.hitbox.pistol.limbs.exposed "Off"
 rbot.hitscan.hitbox.rifle.body.center "On"
-rbot.hitscan.hitbox.rifle.body.exposed "On"
+rbot.hitscan.hitbox.rifle.body.exposed "Off"
 rbot.hitscan.hitbox.rifle.body.lethal "On"
 rbot.hitscan.hitbox.rifle.body.priority "Off"
 rbot.hitscan.hitbox.rifle.head.center "On"
@@ -808,8 +807,8 @@ rbot.hitscan.hitbox.scout.body.priority "Off"
 rbot.hitscan.hitbox.scout.head.center "On"
 rbot.hitscan.hitbox.scout.head.exposed "Off"
 rbot.hitscan.hitbox.scout.head.priority "On"
-rbot.hitscan.hitbox.scout.limbs.center "On"
-rbot.hitscan.hitbox.scout.limbs.exposed "On"
+rbot.hitscan.hitbox.scout.limbs.center "Off"
+rbot.hitscan.hitbox.scout.limbs.exposed "Off"
 rbot.hitscan.hitbox.shared.body.center "On"
 rbot.hitscan.hitbox.shared.body.exposed "On"
 rbot.hitscan.hitbox.shared.body.lethal "On"
@@ -829,7 +828,7 @@ rbot.hitscan.hitbox.shotgun.head.priority "On"
 rbot.hitscan.hitbox.shotgun.limbs.center "Off"
 rbot.hitscan.hitbox.shotgun.limbs.exposed "Off"
 rbot.hitscan.hitbox.smg.body.center "On"
-rbot.hitscan.hitbox.smg.body.exposed "On"
+rbot.hitscan.hitbox.smg.body.exposed "Off"
 rbot.hitscan.hitbox.smg.body.lethal "On"
 rbot.hitscan.hitbox.smg.body.priority "Off"
 rbot.hitscan.hitbox.smg.head.center "On"
@@ -840,12 +839,12 @@ rbot.hitscan.hitbox.smg.limbs.exposed "Off"
 rbot.hitscan.hitbox.sniper.body.center "On"
 rbot.hitscan.hitbox.sniper.body.exposed "On"
 rbot.hitscan.hitbox.sniper.body.lethal "On"
-rbot.hitscan.hitbox.sniper.body.priority "On"
+rbot.hitscan.hitbox.sniper.body.priority "Off"
 rbot.hitscan.hitbox.sniper.head.center "On"
 rbot.hitscan.hitbox.sniper.head.exposed "Off"
-rbot.hitscan.hitbox.sniper.head.priority "On"
-rbot.hitscan.hitbox.sniper.limbs.center "On"
-rbot.hitscan.hitbox.sniper.limbs.exposed "On"
+rbot.hitscan.hitbox.sniper.head.priority "Off"
+rbot.hitscan.hitbox.sniper.limbs.center "Off"
+rbot.hitscan.hitbox.sniper.limbs.exposed "Off"
 rbot.hitscan.hitbox.zeus.body.center "On"
 rbot.hitscan.hitbox.zeus.body.exposed "Off"
 rbot.hitscan.hitbox.zeus.body.lethal "On"
@@ -876,12 +875,11 @@ theme.ui2.lowpoly1 197 39 200 108
 theme.ui2.lowpoly2 18 18 18 0
 unbindall
 bindtoggle "Mouse3" esp.world.thirdperson "Off" "On" 0
-bindhold "Mouse5" rbot.hitscan.accuracy.scout.mindamage "101" "10" 0
-bindhold "Mouse5" rbot.hitscan.accuracy.asniper.mindamage "40" "5" 1
-bindhold "Mouse5" rbot.hitscan.accuracy.sniper.mindamage "104" "10" 2
-bindhold "Mouse5" rbot.hitscan.accuracy.hpistol.mindamage "100" "10" 3
-bindtoggle "Capslock" rbot.hitscan.accuracy.smg.mindamage "8" "34" 0
-bindtoggle "Capslock" rbot.hitscan.accuracy.pistol.mindamage "8" "40" 1
+bindhold "Mouse4" rbot.master "Off" "On" 0
+bindtoggle "Capslock" rbot.hitscan.accuracy.asniper.mindamage "4" "40" 0
+bindtoggle "Capslock" rbot.hitscan.accuracy.sniper.mindamage "10" "104" 1
+bindtoggle "Capslock" rbot.hitscan.accuracy.scout.mindamage "6" "101" 2
+bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.mindamage "66" "100" 3
 unalias
 alias invertrot "rbot.antiaim.rotation"
 alias autodir1 "rbot.antiaim.left -157.0 Desync; rbot.antiaim.left.lby 100.0; rbot.antiaim.left.rotation -58.0; rbot.antiaim.right -175.0 Desync; rbot.antiaim.right.lby -100.0; rbot.antiaim.right.rotation 58.0; bind Mouse5 autodir2"
