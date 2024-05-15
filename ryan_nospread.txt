@@ -225,7 +225,7 @@ esp.overlay.weapon.nades.timer "Off"
 esp.overlay.weapon.name "Off"
 esp.overlay.weapon.name.anchor 0
 esp.overlay.weapon.name.clr1 255 255 255 255
-esp.skins.enabled "On"
+esp.skins.enabled "Off"
 esp.world.bullettracer "All"
 esp.world.bullettracerfilter.enemy "On"
 esp.world.bullettracerfilter.enemy.clr 250 17 11 255
