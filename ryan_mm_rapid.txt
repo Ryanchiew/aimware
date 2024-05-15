@@ -217,15 +217,15 @@ esp.overlay.weapon.ammo.clr1 0 136 236 255
 esp.overlay.weapon.ammo.clr2 0 83 166 255
 esp.overlay.weapon.box "Off"
 esp.overlay.weapon.box.clr1 200 200 100 255
-esp.overlay.weapon.c4timer "Off"
-esp.overlay.weapon.defuser "Off"
+esp.overlay.weapon.c4timer "On"
+esp.overlay.weapon.defuser "On"
 esp.overlay.weapon.nades.icon "Off"
 esp.overlay.weapon.nades.name "Off"
 esp.overlay.weapon.nades.timer "Off"
 esp.overlay.weapon.name "Off"
 esp.overlay.weapon.name.anchor 0
 esp.overlay.weapon.name.clr1 255 255 255 255
-esp.skins.enabled "Off"
+esp.skins.enabled "On"
 esp.world.bullettracer "All"
 esp.world.bullettracerfilter.enemy "On"
 esp.world.bullettracerfilter.enemy.clr 250 17 11 255
@@ -255,7 +255,7 @@ esp.world.nadewarning.friendly "On"
 esp.world.nadewarning.local "On"
 esp.world.outofview "Arrow"
 esp.world.outofviewscale 20
-esp.world.thirdperson "On"
+esp.world.thirdperson "Off"
 esp.world.thirdpersondist 80
 esp.world.viewmodelfov 60
 esp.world.wallbanginfo.circle "Off"
@@ -559,7 +559,7 @@ misc.strafe.wasd "On"
 radar 16 16 256 284
 rbot.accuracy.attack.indicator "On"
 rbot.accuracy.attack.rapidfire "On"
-rbot.accuracy.auto "Pistol"
+rbot.accuracy.auto "Sniper"
 rbot.accuracy.auto.asniper.scopeopts.scope "On"
 rbot.accuracy.auto.asniper.scopeopts.unscope "Off"
 rbot.accuracy.auto.asniper.stopopts.betweenshots "Off"
@@ -605,9 +605,9 @@ rbot.accuracy.auto.scout.scopeopts.scope "On"
 rbot.accuracy.auto.scout.scopeopts.unscope "Off"
 rbot.accuracy.auto.scout.stopopts.betweenshots "Off"
 rbot.accuracy.auto.scout.stopopts.duck "Off"
-rbot.accuracy.auto.scout.stopopts.early "On"
-rbot.accuracy.auto.scout.stopopts.inair "On"
-rbot.accuracy.auto.scout.stopopts.inmolotov "On"
+rbot.accuracy.auto.scout.stopopts.early "Off"
+rbot.accuracy.auto.scout.stopopts.inair "Off"
+rbot.accuracy.auto.scout.stopopts.inmolotov "Off"
 rbot.accuracy.auto.scout.stopopts.slowwalk "Off"
 rbot.accuracy.auto.scout.stopopts.stop "On"
 rbot.accuracy.auto.shared.fire.pistol "On"
@@ -640,9 +640,9 @@ rbot.accuracy.auto.sniper.scopeopts.scope "On"
 rbot.accuracy.auto.sniper.scopeopts.unscope "Off"
 rbot.accuracy.auto.sniper.stopopts.betweenshots "Off"
 rbot.accuracy.auto.sniper.stopopts.duck "Off"
-rbot.accuracy.auto.sniper.stopopts.early "On"
-rbot.accuracy.auto.sniper.stopopts.inair "On"
-rbot.accuracy.auto.sniper.stopopts.inmolotov "On"
+rbot.accuracy.auto.sniper.stopopts.early "Off"
+rbot.accuracy.auto.sniper.stopopts.inair "Off"
+rbot.accuracy.auto.sniper.stopopts.inmolotov "Off"
 rbot.accuracy.auto.sniper.stopopts.slowwalk "Off"
 rbot.accuracy.auto.sniper.stopopts.stop "On"
 rbot.accuracy.auto.zeus.stopopts.betweenshots "Off"
@@ -654,7 +654,7 @@ rbot.accuracy.auto.zeus.stopopts.slowwalk "On"
 rbot.accuracy.auto.zeus.stopopts.stop "On"
 rbot.accuracy.movement.quickstop "On"
 rbot.accuracy.movement.slowkey 16
-rbot.accuracy.movement.slowspeed 40
+rbot.accuracy.movement.slowspeed 45
 rbot.accuracy.walkbot.peek "On"
 rbot.accuracy.walkbot.peekind "On"
 rbot.accuracy.walkbot.peekind.clr1 0 255 0 255
@@ -671,23 +671,23 @@ rbot.aim.posadj.backtrack "On"
 rbot.aim.target.fov 180
 rbot.aim.target.lock "On"
 rbot.aim.target.selection "Closest To Crosshair"
-rbot.antiaim.advanced.pitch "89°"
-rbot.antiaim.base "180 Backward"
+rbot.antiaim.advanced.pitch "Off"
+rbot.antiaim.base "180 Off"
 rbot.antiaim.base.rotation -58
 rbot.antiaim.base.spinspeed 60
-rbot.antiaim.condition.autodir.edges "On"
-rbot.antiaim.condition.autodir.targets "On"
+rbot.antiaim.condition.autodir.edges "Off"
+rbot.antiaim.condition.autodir.targets "Off"
 rbot.antiaim.condition.freezetime "On"
 rbot.antiaim.condition.grenade "On"
 rbot.antiaim.condition.knife "On"
 rbot.antiaim.condition.use "On"
-rbot.antiaim.left "125 Backward"
+rbot.antiaim.left "125 Off"
 rbot.antiaim.left.rotation -58
 rbot.antiaim.left.spinspeed 60
-rbot.antiaim.right "-125 Backward"
+rbot.antiaim.right "-125 Off"
 rbot.antiaim.right.rotation 58
 rbot.antiaim.right.spinspeed 60
-rbot.hitscan.accuracy "Pistol"
+rbot.hitscan.accuracy "Sniper"
 rbot.hitscan.accuracy.asniper.adaptivedamage "On"
 rbot.hitscan.accuracy.asniper.autowall "On"
 rbot.hitscan.accuracy.asniper.enhitchance "On"
@@ -721,9 +721,9 @@ rbot.hitscan.accuracy.rifle.mindamage 26
 rbot.hitscan.accuracy.scout.adaptivedamage "On"
 rbot.hitscan.accuracy.scout.autowall "On"
 rbot.hitscan.accuracy.scout.enhitchance "On"
-rbot.hitscan.accuracy.scout.hitchance 40
-rbot.hitscan.accuracy.scout.hitchanceburst 35
-rbot.hitscan.accuracy.scout.mindamage 101
+rbot.hitscan.accuracy.scout.hitchance 25
+rbot.hitscan.accuracy.scout.hitchanceburst 10
+rbot.hitscan.accuracy.scout.mindamage 51
 rbot.hitscan.accuracy.shared.adaptivedamage "On"
 rbot.hitscan.accuracy.shared.autowall "On"
 rbot.hitscan.accuracy.shared.enhitchance "On"
@@ -745,16 +745,16 @@ rbot.hitscan.accuracy.smg.mindamage 21
 rbot.hitscan.accuracy.sniper.adaptivedamage "On"
 rbot.hitscan.accuracy.sniper.autowall "On"
 rbot.hitscan.accuracy.sniper.enhitchance "On"
-rbot.hitscan.accuracy.sniper.hitchance 65
-rbot.hitscan.accuracy.sniper.hitchanceburst 75
-rbot.hitscan.accuracy.sniper.mindamage 110
+rbot.hitscan.accuracy.sniper.hitchance 25
+rbot.hitscan.accuracy.sniper.hitchanceburst 10
+rbot.hitscan.accuracy.sniper.mindamage 51
 rbot.hitscan.accuracy.zeus.adaptivedamage "On"
 rbot.hitscan.accuracy.zeus.autowall "On"
 rbot.hitscan.accuracy.zeus.enhitchance "On"
 rbot.hitscan.accuracy.zeus.hitchance 65
 rbot.hitscan.accuracy.zeus.hitchanceburst 45
 rbot.hitscan.accuracy.zeus.mindamage 84
-rbot.hitscan.hitbox "Pistol"
+rbot.hitscan.hitbox "Scout"
 rbot.hitscan.hitbox.asniper.body.center "On"
 rbot.hitscan.hitbox.asniper.body.exposed "On"
 rbot.hitscan.hitbox.asniper.body.lethal "On"
@@ -806,7 +806,7 @@ rbot.hitscan.hitbox.scout.body.lethal "On"
 rbot.hitscan.hitbox.scout.body.priority "Off"
 rbot.hitscan.hitbox.scout.head.center "On"
 rbot.hitscan.hitbox.scout.head.exposed "Off"
-rbot.hitscan.hitbox.scout.head.priority "On"
+rbot.hitscan.hitbox.scout.head.priority "Off"
 rbot.hitscan.hitbox.scout.limbs.center "On"
 rbot.hitscan.hitbox.scout.limbs.exposed "On"
 rbot.hitscan.hitbox.shared.body.center "On"
@@ -877,9 +877,9 @@ unbindall
 bindtoggle "Mouse3" esp.world.thirdperson "Off" "On" 0
 bindtoggle "Capslock" rbot.hitscan.accuracy.asniper.mindamage "4" "40" 0
 bindtoggle "Capslock" rbot.hitscan.accuracy.pistol.mindamage "8" "30" 1
-bindtoggle "Capslock" rbot.hitscan.accuracy.scout.mindamage "10" "101" 2
-bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.mindamage "20" "50" 3
-bindtoggle "Capslock" rbot.hitscan.accuracy.sniper.mindamage "15" "110" 4
+bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.mindamage "20" "50" 2
+bindtoggle "Capslock" rbot.hitscan.accuracy.scout.mindamage "20" "51" 3
+bindtoggle "Capslock" rbot.hitscan.accuracy.sniper.mindamage "20" "51" 4
 unalias
 alias invertrot "rbot.antiaim.rotation"
 alias autodir1 "rbot.antiaim.left -157.0 Desync; rbot.antiaim.left.lby 100.0; rbot.antiaim.left.rotation -58.0; rbot.antiaim.right -175.0 Desync; rbot.antiaim.right.lby -100.0; rbot.antiaim.right.rotation 58.0; bind Mouse5 autodir2"
@@ -897,17 +897,17 @@ alias auto10 "rbot.accuracy.weapon.pistol.mindmg 10; rbot.accuracy.weapon.zeus.m
 alias bt_dev "hitscan_backtrack_only"
 alias bt_dev1 "hitscan_backtrack_only"
 skin.clear
-skin.add "weapon_ak47" "cu_ak47_asiimov" "0" "" "" "" "" "" "" "" ""
+skin.add "weapon_ak47" "cu_fireserpent_ak47_bravo" "0" "" "1314" "" "std_crown_foil" "std_crown_foil" "std_crown_foil" "std_crown_foil" "std_crown_foil"
 skin.add "weapon_aug" "cu_anime_aug" "0" "" "" "" "rio2022_team_zzn_graffiti" "rio2022_team_zzn_holo" "eslkatowice2015_3dmax_foil" "katowice2019_signature_alex_foil" ""
 skin.add "weapon_awp" "cu_awp_asimov" "0" "" "" "" "" "" "" "" ""
-skin.add "weapon_cz75a" "hy_webs" "0" "" "" "" "" "" "" "" ""
+skin.add "weapon_cz75a" "gs_cz75_tacticat" "0" "" "" "" "" "" "" "" ""
 skin.add "weapon_deagle" "cu_deag_printstream" "0" "" "" "" "" "" "" "" ""
 skin.add "weapon_elite" "an_navy" "0" "" "" "" "" "" "" "" ""
 skin.add "weapon_famas" "gs_famas_mecha" "0" "" "" "" "" "" "" "" ""
 skin.add "weapon_fiveseven" "cu_five_seven_angry" "0" "" "" "" "" "" "" "" ""
-skin.add "weapon_g3sg1" "am_ancient_wine" "0" "" "" "" "" "" "" "" ""
-skin.add "weapon_galilar" "so_orca" "0" "" "" "" "" "" "" "" ""
-skin.add "weapon_glock" "cu_money_glock" "0" "" "" "" "" "" "" "" ""
+skin.add "weapon_g3sg1" "cu_chronos_g3sg1" "0" "" "" "" "" "" "" "" ""
+skin.add "weapon_galilar" "cu_cerbrus_galil" "0" "" "" "" "" "" "" "" ""
+skin.add "weapon_glock" "cu_glock-liquescent" "0" "" "" "" "" "" "" "" ""
 skin.add "weapon_m249" "aq_m249_aztec" "0" "" "5412" "" "" "" "" "" ""
 skin.add "weapon_m4a1_silencer" "cu_m4a1s_printstream" "0" "" "5412" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
 skin.add "weapon_m4a1" "cu_m4_asimov" "0" "" "" "" "" "" "" "" ""
@@ -916,18 +916,20 @@ skin.add "weapon_mag7" "gs_mag7_bismuth" "0" "" "" "" "eslkatowice2015_3dmax_gol
 skin.add "weapon_mp5sd" "gs_mp5_etch" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
 skin.add "weapon_mp7" "cu_mp7_fear" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
 skin.add "weapon_mp9" "cu_mp9_narcis" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
-skin.add "weapon_negev" "an_navy" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "weapon_negev" "gs_negev_thor" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
 skin.add "weapon_nova" "cu_nova_antique" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
-skin.add "weapon_hkp2000" "an_silver" "0" "" "" "" "" "" "" "" ""
+skin.add "weapon_hkp2000" "cu_p2000_fire_elemental" "0" "" "" "" "" "" "" "" ""
 skin.add "weapon_p250" "gs_p250_apep" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
-skin.add "weapon_p90" "aa_ancient_brown" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
-skin.add "weapon_bizon" "hy_lizard_skin" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "weapon_p90" "cu_dragon_p90_bravo" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "weapon_bizon" "cu_bizon_Curse" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
 skin.add "weapon_revolver" "aa_fade_metallic_revolver" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
-skin.add "weapon_scar20" "am_army_shine" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
-skin.add "weapon_sg556" "cu_sg553_aerial" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
-skin.add "weapon_ssg08" "hy_ssg08_marker" "0" "" "" "" "" "" "" "" ""
-skin.add "weapon_sawedoff" "aa_fade_metallic" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
-skin.add "weapon_tec9" "sp_mesh_army" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "weapon_scar20" "an_emerald_bravo" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "weapon_sg556" "cu_sg553_rally" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "weapon_ssg08" "cu_shark" "0" "" "" "" "" "" "" "" ""
+skin.add "weapon_sawedoff" "cu_sawedoff_devourer" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "weapon_tec9" "aq_tec9_chalk_pattern" "0" "" "" "" "patch_breakout" "patch_breakout" "patch_breakout" "patch_breakout" ""
 skin.add "weapon_ump45" "cu_ump45_white_fang" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
 skin.add "weapon_usp_silencer" "so_whiteout_riptide" "0" "" "" "" "" "" "" "" ""
 skin.add "weapon_xm1014" "am_ancient_warm" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "weapon_taser" "zeus_thunder_god" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "specialist_gloves" "specialist_emerald_web" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
