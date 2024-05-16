@@ -548,10 +548,10 @@ misc.duckjump "Off"
 misc.edgejump 0
 misc.master "On"
 misc.showspec "On"
-misc.strafe.air "Off"
+misc.strafe.air "On"
 misc.strafe.circle 0
 misc.strafe.disablenade "On"
-misc.strafe.enable "Off"
+misc.strafe.enable "On"
 misc.strafe.limit 1
 misc.strafe.mode "Normal"
 misc.strafe.snake 0
