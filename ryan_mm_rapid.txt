@@ -132,7 +132,7 @@ esp.overlay.enemy.flags.planting "On"
 esp.overlay.enemy.flags.planting.clr 244 70 66 255
 esp.overlay.enemy.flags.reloading "On"
 esp.overlay.enemy.flags.reloading.clr 237 217 78 255
-esp.overlay.enemy.flags.scoped "Off"
+esp.overlay.enemy.flags.scoped "On"
 esp.overlay.enemy.flags.scoped.clr 81 191 234 255
 esp.overlay.enemy.health.anchor 2
 esp.overlay.enemy.health.healthbar "On"
@@ -222,10 +222,10 @@ esp.overlay.weapon.defuser "On"
 esp.overlay.weapon.nades.icon "Off"
 esp.overlay.weapon.nades.name "Off"
 esp.overlay.weapon.nades.timer "Off"
-esp.overlay.weapon.name "Off"
+esp.overlay.weapon.name "Icon"
 esp.overlay.weapon.name.anchor 0
 esp.overlay.weapon.name.clr1 255 255 255 255
-esp.skins.enabled "On"
+esp.skins.enabled "Off"
 esp.world.bullettracer "All"
 esp.world.bullettracerfilter.enemy "On"
 esp.world.bullettracerfilter.enemy.clr 250 17 11 255
@@ -562,7 +562,7 @@ rbot.accuracy.attack.rapidfire "On"
 rbot.accuracy.auto "Auto Sniper"
 rbot.accuracy.auto.asniper.scopeopts.scope "On"
 rbot.accuracy.auto.asniper.scopeopts.unscope "Off"
-rbot.accuracy.auto.asniper.stopopts.betweenshots "Off"
+rbot.accuracy.auto.asniper.stopopts.betweenshots "On"
 rbot.accuracy.auto.asniper.stopopts.duck "Off"
 rbot.accuracy.auto.asniper.stopopts.early "Off"
 rbot.accuracy.auto.asniper.stopopts.inair "Off"
@@ -668,7 +668,7 @@ rbot.aim.aimadj.silentaim "On"
 rbot.aim.enable "Automatic"
 rbot.aim.knife "Quick Stab"
 rbot.aim.posadj.backtrack "On"
-rbot.aim.target.fov 180
+rbot.aim.target.fov 39
 rbot.aim.target.lock "On"
 rbot.aim.target.selection "Closest To Crosshair"
 rbot.antiaim.advanced.pitch "Off"
@@ -687,7 +687,7 @@ rbot.antiaim.left.spinspeed 60
 rbot.antiaim.right "-125 Off"
 rbot.antiaim.right.rotation 58
 rbot.antiaim.right.spinspeed 60
-rbot.hitscan.accuracy "Auto Sniper"
+rbot.hitscan.accuracy "Heavy Pistol"
 rbot.hitscan.accuracy.asniper.adaptivedamage "On"
 rbot.hitscan.accuracy.asniper.autowall "On"
 rbot.hitscan.accuracy.asniper.enhitchance "On"
@@ -699,7 +699,7 @@ rbot.hitscan.accuracy.hpistol.autowall "On"
 rbot.hitscan.accuracy.hpistol.enhitchance "On"
 rbot.hitscan.accuracy.hpistol.hitchance 55
 rbot.hitscan.accuracy.hpistol.hitchanceburst 45
-rbot.hitscan.accuracy.hpistol.mindamage 50
+rbot.hitscan.accuracy.hpistol.mindamage 29
 rbot.hitscan.accuracy.lmg.adaptivedamage "On"
 rbot.hitscan.accuracy.lmg.autowall "On"
 rbot.hitscan.accuracy.lmg.enhitchance "On"
@@ -718,7 +718,7 @@ rbot.hitscan.accuracy.rifle.enhitchance "On"
 rbot.hitscan.accuracy.rifle.hitchance 55
 rbot.hitscan.accuracy.rifle.hitchanceburst 45
 rbot.hitscan.accuracy.rifle.mindamage 26
-rbot.hitscan.accuracy.scout.adaptivedamage "On"
+rbot.hitscan.accuracy.scout.adaptivedamage "Off"
 rbot.hitscan.accuracy.scout.autowall "On"
 rbot.hitscan.accuracy.scout.enhitchance "On"
 rbot.hitscan.accuracy.scout.hitchance 25
@@ -742,7 +742,7 @@ rbot.hitscan.accuracy.smg.enhitchance "On"
 rbot.hitscan.accuracy.smg.hitchance 45
 rbot.hitscan.accuracy.smg.hitchanceburst 55
 rbot.hitscan.accuracy.smg.mindamage 21
-rbot.hitscan.accuracy.sniper.adaptivedamage "On"
+rbot.hitscan.accuracy.sniper.adaptivedamage "Off"
 rbot.hitscan.accuracy.sniper.autowall "On"
 rbot.hitscan.accuracy.sniper.enhitchance "On"
 rbot.hitscan.accuracy.sniper.hitchance 25
@@ -754,7 +754,7 @@ rbot.hitscan.accuracy.zeus.enhitchance "On"
 rbot.hitscan.accuracy.zeus.hitchance 65
 rbot.hitscan.accuracy.zeus.hitchanceburst 45
 rbot.hitscan.accuracy.zeus.mindamage 84
-rbot.hitscan.hitbox "Sniper"
+rbot.hitscan.hitbox "Scout"
 rbot.hitscan.hitbox.asniper.body.center "On"
 rbot.hitscan.hitbox.asniper.body.exposed "On"
 rbot.hitscan.hitbox.asniper.body.lethal "On"
@@ -877,9 +877,9 @@ unbindall
 bindtoggle "Mouse3" esp.world.thirdperson "Off" "On" 0
 bindtoggle "Capslock" rbot.hitscan.accuracy.asniper.mindamage "4" "40" 0
 bindtoggle "Capslock" rbot.hitscan.accuracy.pistol.mindamage "8" "30" 1
-bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.mindamage "20" "50" 2
-bindtoggle "Capslock" rbot.hitscan.accuracy.scout.mindamage "20" "51" 3
-bindtoggle "Capslock" rbot.hitscan.accuracy.sniper.mindamage "20" "51" 4
+bindtoggle "Capslock" rbot.hitscan.accuracy.scout.mindamage "20" "51" 2
+bindtoggle "Capslock" rbot.hitscan.accuracy.sniper.mindamage "20" "51" 3
+bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.mindamage "101" "29" 4
 unalias
 alias invertrot "rbot.antiaim.rotation"
 alias autodir1 "rbot.antiaim.left -157.0 Desync; rbot.antiaim.left.lby 100.0; rbot.antiaim.left.rotation -58.0; rbot.antiaim.right -175.0 Desync; rbot.antiaim.right.lby -100.0; rbot.antiaim.right.rotation 58.0; bind Mouse5 autodir2"
