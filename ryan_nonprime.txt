@@ -255,7 +255,7 @@ esp.world.nadewarning.friendly "On"
 esp.world.nadewarning.local "On"
 esp.world.outofview "Arrow"
 esp.world.outofviewscale 20
-esp.world.thirdperson "On"
+esp.world.thirdperson "Off"
 esp.world.thirdpersondist 80
 esp.world.viewmodelfov 60
 esp.world.wallbanginfo.circle "Off"
@@ -559,7 +559,7 @@ misc.strafe.wasd "On"
 radar 16 16 256 284
 rbot.accuracy.attack.indicator "On"
 rbot.accuracy.attack.rapidfire "On"
-rbot.accuracy.auto "Submachine Gun"
+rbot.accuracy.auto "Heavy Pistol"
 rbot.accuracy.auto.asniper.scopeopts.scope "On"
 rbot.accuracy.auto.asniper.scopeopts.unscope "Off"
 rbot.accuracy.auto.asniper.stopopts.betweenshots "On"
@@ -570,7 +570,7 @@ rbot.accuracy.auto.asniper.stopopts.inmolotov "Off"
 rbot.accuracy.auto.asniper.stopopts.slowwalk "Off"
 rbot.accuracy.auto.asniper.stopopts.stop "Off"
 rbot.accuracy.auto.hpistol.fire.pistol "On"
-rbot.accuracy.auto.hpistol.fire.revolver "Off"
+rbot.accuracy.auto.hpistol.fire.revolver "On"
 rbot.accuracy.auto.hpistol.stopopts.betweenshots "On"
 rbot.accuracy.auto.hpistol.stopopts.duck "Off"
 rbot.accuracy.auto.hpistol.stopopts.early "On"
@@ -687,7 +687,7 @@ rbot.antiaim.left.spinspeed 60
 rbot.antiaim.right "-125 Off"
 rbot.antiaim.right.rotation 58
 rbot.antiaim.right.spinspeed 60
-rbot.hitscan.accuracy "Pistol"
+rbot.hitscan.accuracy "Scout"
 rbot.hitscan.accuracy.asniper.adaptivedamage "On"
 rbot.hitscan.accuracy.asniper.autowall "On"
 rbot.hitscan.accuracy.asniper.enhitchance "On"
@@ -723,7 +723,7 @@ rbot.hitscan.accuracy.scout.autowall "On"
 rbot.hitscan.accuracy.scout.enhitchance "On"
 rbot.hitscan.accuracy.scout.hitchance 25
 rbot.hitscan.accuracy.scout.hitchanceburst 15
-rbot.hitscan.accuracy.scout.mindamage 34
+rbot.hitscan.accuracy.scout.mindamage 25
 rbot.hitscan.accuracy.shared.adaptivedamage "On"
 rbot.hitscan.accuracy.shared.autowall "On"
 rbot.hitscan.accuracy.shared.enhitchance "On"
@@ -754,7 +754,7 @@ rbot.hitscan.accuracy.zeus.enhitchance "On"
 rbot.hitscan.accuracy.zeus.hitchance 55
 rbot.hitscan.accuracy.zeus.hitchanceburst 45
 rbot.hitscan.accuracy.zeus.mindamage 84
-rbot.hitscan.hitbox "Pistol"
+rbot.hitscan.hitbox "Scout"
 rbot.hitscan.hitbox.asniper.body.center "On"
 rbot.hitscan.hitbox.asniper.body.exposed "On"
 rbot.hitscan.hitbox.asniper.body.lethal "On"
@@ -880,8 +880,8 @@ bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.mindamage "101" "29" 1
 bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.hitchance "55" "35" 2
 bindtoggle "Capslock" rbot.hitscan.accuracy.hpistol.hitchanceburst "45" "25" 3
 bindtoggle "Capslock" rbot.hitscan.accuracy.asniper.mindamage "5" "18" 4
-bindtoggle "Capslock" rbot.hitscan.accuracy.scout.mindamage "10" "34" 5
-bindtoggle "Capslock" rbot.hitscan.accuracy.sniper.mindamage "10" "51" 6
+bindtoggle "Capslock" rbot.hitscan.accuracy.sniper.mindamage "10" "51" 5
+bindtoggle "Capslock" rbot.hitscan.accuracy.scout.mindamage "10" "25" 6
 bindtoggle "E" rbot.antiaim.base "179 Backward" "0 Backward" 0
 bindtoggle "E" rbot.antiaim.advanced.pitch "89°" "Off" 1
 unalias
@@ -937,3 +937,4 @@ skin.add "weapon_usp_silencer" "so_whiteout_riptide" "0" "" "" "" "" "" "" "" ""
 skin.add "weapon_xm1014" "am_ancient_warm" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
 skin.add "weapon_taser" "zeus_thunder_god" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
 skin.add "specialist_gloves" "specialist_emerald_web" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
+skin.add "weapon_knife_m9_bayonet" "am_gamma_doppler_phase4" "0" "" "" "" "eslkatowice2015_3dmax_gold" "boston2018_team_thv_gold" "dhw2014_3dmax_gold" "rio2022_signature_annihilation_4_holo" ""
