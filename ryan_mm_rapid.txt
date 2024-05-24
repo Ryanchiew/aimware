@@ -559,7 +559,7 @@ misc.strafe.wasd "On"
 radar 16 16 256 284
 rbot.accuracy.attack.indicator "On"
 rbot.accuracy.attack.rapidfire "On"
-rbot.accuracy.auto "Heavy Pistol"
+rbot.accuracy.auto "Pistol"
 rbot.accuracy.auto.asniper.scopeopts.scope "On"
 rbot.accuracy.auto.asniper.scopeopts.unscope "Off"
 rbot.accuracy.auto.asniper.stopopts.betweenshots "On"
@@ -606,7 +606,7 @@ rbot.accuracy.auto.scout.scopeopts.unscope "Off"
 rbot.accuracy.auto.scout.stopopts.betweenshots "On"
 rbot.accuracy.auto.scout.stopopts.duck "Off"
 rbot.accuracy.auto.scout.stopopts.early "On"
-rbot.accuracy.auto.scout.stopopts.inair "Off"
+rbot.accuracy.auto.scout.stopopts.inair "On"
 rbot.accuracy.auto.scout.stopopts.inmolotov "Off"
 rbot.accuracy.auto.scout.stopopts.slowwalk "Off"
 rbot.accuracy.auto.scout.stopopts.stop "Off"
@@ -687,7 +687,7 @@ rbot.antiaim.left.spinspeed 60
 rbot.antiaim.right "-125 Off"
 rbot.antiaim.right.rotation 58
 rbot.antiaim.right.spinspeed 60
-rbot.hitscan.accuracy "Heavy Pistol"
+rbot.hitscan.accuracy "Auto Sniper"
 rbot.hitscan.accuracy.asniper.adaptivedamage "On"
 rbot.hitscan.accuracy.asniper.autowall "On"
 rbot.hitscan.accuracy.asniper.enhitchance "On"
@@ -721,8 +721,8 @@ rbot.hitscan.accuracy.rifle.mindamage 26
 rbot.hitscan.accuracy.scout.adaptivedamage "Off"
 rbot.hitscan.accuracy.scout.autowall "On"
 rbot.hitscan.accuracy.scout.enhitchance "On"
-rbot.hitscan.accuracy.scout.hitchance 25
-rbot.hitscan.accuracy.scout.hitchanceburst 15
+rbot.hitscan.accuracy.scout.hitchance 55
+rbot.hitscan.accuracy.scout.hitchanceburst 35
 rbot.hitscan.accuracy.scout.mindamage 25
 rbot.hitscan.accuracy.shared.adaptivedamage "On"
 rbot.hitscan.accuracy.shared.autowall "On"
@@ -745,8 +745,8 @@ rbot.hitscan.accuracy.smg.mindamage 21
 rbot.hitscan.accuracy.sniper.adaptivedamage "Off"
 rbot.hitscan.accuracy.sniper.autowall "On"
 rbot.hitscan.accuracy.sniper.enhitchance "On"
-rbot.hitscan.accuracy.sniper.hitchance 25
-rbot.hitscan.accuracy.sniper.hitchanceburst 15
+rbot.hitscan.accuracy.sniper.hitchance 55
+rbot.hitscan.accuracy.sniper.hitchanceburst 35
 rbot.hitscan.accuracy.sniper.mindamage 51
 rbot.hitscan.accuracy.zeus.adaptivedamage "On"
 rbot.hitscan.accuracy.zeus.autowall "On"
@@ -754,7 +754,7 @@ rbot.hitscan.accuracy.zeus.enhitchance "On"
 rbot.hitscan.accuracy.zeus.hitchance 55
 rbot.hitscan.accuracy.zeus.hitchanceburst 45
 rbot.hitscan.accuracy.zeus.mindamage 84
-rbot.hitscan.hitbox "Heavy Pistol"
+rbot.hitscan.hitbox "Pistol"
 rbot.hitscan.hitbox.asniper.body.center "On"
 rbot.hitscan.hitbox.asniper.body.exposed "On"
 rbot.hitscan.hitbox.asniper.body.lethal "On"
@@ -805,7 +805,7 @@ rbot.hitscan.hitbox.scout.body.exposed "On"
 rbot.hitscan.hitbox.scout.body.lethal "On"
 rbot.hitscan.hitbox.scout.body.priority "Off"
 rbot.hitscan.hitbox.scout.head.center "On"
-rbot.hitscan.hitbox.scout.head.exposed "Off"
+rbot.hitscan.hitbox.scout.head.exposed "On"
 rbot.hitscan.hitbox.scout.head.priority "Off"
 rbot.hitscan.hitbox.scout.limbs.center "On"
 rbot.hitscan.hitbox.scout.limbs.exposed "On"
